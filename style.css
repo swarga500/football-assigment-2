@@ -1,0 +1,116 @@
+/* font style */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* ------------------common style ------------------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: #6C6C6C;
+}
+
+
+/* -------------------head style -------------------------------*/
+header {
+    color: white;
+    background-color: #2D25A0;
+    height: 677px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.head-title h1 {
+    font-size: 64px;
+
+}
+
+.live-link {
+    background-color: #E02C6D;
+    height: 44px;
+    width: 168px;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+
+.live-link:hover {
+    background-color: turquoise;
+    color: #2D25A0;
+}
+
+.live-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.live-link a .watch-icon {
+    margin-left: 15px;
+}
+
+.head-image img {
+    width: 556px;
+    height: 438px;
+}
+
+
+/*-------------------------- blog style------------------------------ */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-bottom: 170px;
+}
+
+.blog {
+    height: 474px;
+    width: 330px;
+
+    border: 1px solid white;
+    box-shadow: 10px 10px 30px lightgray;
+
+}
+
+.blog-image img {
+    width: 300px;
+    height: 256px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.blog-info {
+    padding: 0 15px 15px 15px;
+}
+
+
+/* ---------------------------footer style---------------------------- */
+.footer-container {
+
+    height: 213px;
+    text-align: center;
+    padding-bottom: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 483px;
+    height: 110px;
+
+}
+
+.footer-social .footer-icon {
+    color: gray;
+    margin-left: 5px;
+    font-size: 24px;
+}
