@@ -170,7 +170,7 @@ p {
 
 
 
-/*------------- media-quiary---------------- */
+/*------------- media-quiary for mobile---------------- */
 @media only screen and (max-width: 688px) {
 
     .head-container {
@@ -206,8 +206,12 @@ p {
         width: 100%;
     }
 
+    .match-section h1 {
+        margin-bottom: 150px;
+    }
+
     .match-container {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
         flex-direction: column;
         padding-left: 5%;
     }
